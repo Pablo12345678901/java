@@ -1,7 +1,7 @@
 public class D_boucle_et_if {
     public static void main(String[] args) {
         int i ;
-        final int NBFOIS = 5 ;
+        final int NBFOIS = 5 ; // final = const
         double nb = 0;
         double rac_nb = 0 ;
         System.out.println("Je vais vous calculer " + NBFOIS + " racines.");
@@ -14,6 +14,6 @@ public class D_boucle_et_if {
                 System.out.println("La racine de " + nb + " = " + rac_nb) ;
             }
         }
-        System.out.println("Fin du programme");
+        System.out.println("Fin du programme   \u30D0"); // Affichage d'un caractère spécial à l'aide de la conversion d'un char Unicode en hexadecimal
     }
 }
