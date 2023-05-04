@@ -1,16 +1,19 @@
-package ZZZ_Ressources_livres.chap06;
+//package ZZZ_Ressources_livres.chap06;
 class Point
 { public Point (int abs, int ord)  // constructeur
   { x = abs ;  y = ord ;
   }
   public void deplace (int dx, int dy)  // deplace  (int, int)
-  { x += dx ; y += dy ;
+  { System.out.println("deplace  (int, int)") ;
+    x += dx ; y += dy ;
   }
   public void deplace (int dx)          // deplace  (int)
-  { x += dx ;
+  { System.out.println("deplace  (int)") ;
+    x += dx ;
   }
   public void deplace (short dx)        // deplace  (short)
-  { x += dx ;
+  { System.out.println("deplace  (short)") ;
+    x += dx ;
   }
   private int x, y ;
 }
