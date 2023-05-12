@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class I_panneau_couleur_de_fonds {
+public class J_trait_sur_panneau {
     public static void main(String[] args) {
         MaFenetre fen = new MaFenetre() ;
         fen.setVisible(true);
@@ -19,10 +19,17 @@ class MaFenetre extends JFrame {
         // création container
         Container container = getContentPane() ;
         // panneau de couleur
-        panneau = new JPanel() ;
-        Color color = new Color(0.2f, 0.3f, 0.6f) ;
+        panneau = new Panneau() ;
+        Color color = new Color(0.9f, 0.9f, 0.24f) ;
         panneau.setBackground(color);
         container.add(panneau) ;
     }
     private JPanel panneau ;
+}
+
+class Panneau extends JPanel {
+    public void paintComponent (Graphics g)
+    {   super.paintComponent(g);
+        g.drawLine(50, 200, 300, 50);
+    }
 }
