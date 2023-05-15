@@ -1,23 +1,19 @@
-package ZZZ_Ressources_livres.chap13;
 import javax.swing.* ;
 import java.awt.* ;
 import java.awt.event.* ;
 import javax.swing.event.* ;
 
-class MaFenetre extends JFrame implements ActionListener, ItemListener,
-                                          FocusListener
-{ static public final String[] nomCouleurs
-                      = {"rouge",   "vert",      "jaune",      "bleu"} ;
-  static public final Color[] couleurs
-                      = {Color.red, Color.green, Color.yellow, Color.blue} ;
+class MaFenetre extends JFrame implements ActionListener, ItemListener, FocusListener
+{ static public final String[] nomCouleurs = {"rouge", "vert", "jaune", "bleu"} ;
+  static public final Color[] couleurs = {Color.red, Color.green, Color.yellow, Color.blue} ;
   public MaFenetre ()
   { setTitle ("FIGURES") ;
     setSize (450, 200) ;
     Container contenu = getContentPane() ;
        /*** paneau pour les dessins ***/
-    panDes = new PaneauDessin() ;
+    panDes = new PaneauDessin() ; // class à part car possède méthode d'affichage rectangle, ovale +  modif hauteur, largeur et couleur (+ repaint)
     contenu.add(panDes) ;
-    panDes.setBackground(Color.cyan) ;  // paneau initialement bleu
+    panDes.setBackground(Color.blue) ;  // paneau initialement bleu
        /*** paneau pour les commandes ***/
     panCom = new JPanel() ;
     contenu.add (panCom, "South") ;

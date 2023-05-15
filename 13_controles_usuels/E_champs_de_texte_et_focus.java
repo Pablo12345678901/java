@@ -1,6 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+import javax.swing.event.* ;
 
 class Fenetre extends JFrame implements ActionListener, FocusListener {
     public Fenetre() {
