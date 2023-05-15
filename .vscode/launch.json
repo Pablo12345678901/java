@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Flipper",
+            "request": "launch",
+            "mainClass": "Flipper",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "B_wait_et_notify",
             "request": "launch",
             "mainClass": "B_wait_et_notify",
