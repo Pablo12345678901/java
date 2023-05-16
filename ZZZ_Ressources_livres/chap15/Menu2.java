@@ -1,8 +1,8 @@
-package ZZZ_Ressources_livres.chap15;
 import java.awt.*;
 import java.awt.event.* ;
 import javax.swing.* ;
 import javax.swing.event.* ;
+
 class FenMenu extends JFrame implements ActionListener, ItemListener
 { public FenMenu ()
   { setTitle ("Exemple de menu") ;
