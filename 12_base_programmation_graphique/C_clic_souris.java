@@ -4,13 +4,13 @@ import java.awt.event.*; // pour les évènement de la souris
 public class C_clic_souris {
     public static void main(String[] args) {
         MaFenetre fen = new MaFenetre() ;
+        fen.setVisible(true);
     }
 }
 
 class MaFenetre extends JFrame implements MouseListener {
     public MaFenetre()
     {   setBounds(10, 40, 700, 500);
-        setVisible(true);
         setTitle("Titre de la fenêtre");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         addMouseListener(this);

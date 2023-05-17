@@ -1,4 +1,4 @@
-//package ZZZ_Ressources_livres.chap06;
+package ZZZ_Ressources_livres.chap06;
 class Point
 { public Point (int abs, int ord)  // constructeur
   { x = abs ;  y = ord ;

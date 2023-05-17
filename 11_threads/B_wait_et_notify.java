@@ -22,7 +22,6 @@ class Nombres extends Thread {
     public Nombres(int nb, int nb_rac) {
         this.nb = nb ;
         this.carre = nb * nb ;
-        this.nb_rac = nb_rac ;
         this.rac_max = nb + nb_rac ;
     }
     public synchronized void calcul() throws InterruptedException {
@@ -39,7 +38,6 @@ class Nombres extends Thread {
         else wait() ; // mise en pause du thread qui appelle l'objet et sa méthode affiche
     }
     public int nb ;
-    private int nb_rac ;
     private int rac_max ;
     private int carre ;
 }
@@ -62,7 +60,7 @@ class ThrCalcul extends Thread {
         }
     }
     private Nombres nombre ;
-     public static boolean ok_quit = false ;   
+     public boolean ok_quit = false ;   
 }
 
 class ThrAffiche extends Thread {
@@ -84,5 +82,5 @@ class ThrAffiche extends Thread {
         
     }
     private Nombres nombre ;
-    public static boolean ok_quit = false ;  
+    public boolean ok_quit = false ;  
 }

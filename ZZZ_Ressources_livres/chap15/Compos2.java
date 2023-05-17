@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap15;
+
 import java.awt.*;
 import java.awt.event.* ;
 import javax.swing.* ;
@@ -18,7 +18,7 @@ class FenMenu extends JFrame
     rectangle = new JMenuItem ("Rectangle") ;
     formes.add(rectangle) ;
     addMouseListener (new MouseAdapter()
-      { public void mouseReleased (MouseEvent e)
+      { public void mousePressed (MouseEvent e)
         {  if (e.isPopupTrigger())
              formes.show (e.getComponent(), e.getX(), e.getY()) ;
         }

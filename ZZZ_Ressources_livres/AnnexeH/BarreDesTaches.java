@@ -1,7 +1,9 @@
 package ZZZ_Ressources_livres.AnnexeH;
+
 import java.awt.* ;
 import javax.swing.* ;
 import java.io.* ;
+
 public class BarreDesTaches 
 {  public static void main (String args[]) throws AWTException, IOException
    { if (SystemTray.isSupported()) System.out.println ("SystemTray OK");

@@ -1,8 +1,12 @@
 package ZZZ_Ressources_livres.chap15;
+
 import java.awt.*;
 import java.awt.event.* ;
 import javax.swing.* ;
 import javax.swing.event.* ;
+
+import ZZZ_Ressources_livres.chap15.chap15_sous.FenMenu;
+
 class FenMenu extends JFrame implements ActionListener
 { public FenMenu ()
   { setTitle ("Exemple accelerateurs") ;

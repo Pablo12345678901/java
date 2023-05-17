@@ -1,6 +1,11 @@
 package ZZZ_Ressources_livres.AnnexeH;
-class MaFenetre extends JFrame
-{  ..... }
+
+import javax.swing.JFrame;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
+
+class MaFenetre extends JFrame {}
 public class EssaiLookAndFeel
 { public static void main (String args[]) throws ClassNotFoundException, 
     UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException

@@ -1,17 +1,21 @@
-package ZZZ_Ressources_livres.chap19;
+package ZZZ_Ressources_livres.chap15.chap15_sous;
+
 import java.awt.*;
 import java.awt.event.* ;
 import javax.swing.* ;
-import javax.swing.event.* ;
-public class ExMenuAc extends JApplet implements ActionListener
+//import javax.swing.event.* ;
+class FenMenu extends JFrame implements ActionListener
 { static public final String[] nomCouleurs =
                          {"rouge",    "vert",       "jaune",      "bleu"} ;
   static public final Color[] couleurs =
                          {Color.red,   Color.green, Color.yellow, Color.blue} ;
   static public final String[] nomIcones  =
                          {"rouge.gif", "vert.gif",  "jaune.gif",  "bleu.gif"} ;
-  public void init()
-  { Container contenu = getContentPane() ;
+  public FenMenu ()
+  { setTitle ("Figures avec Menus et barre d'outils") ;
+    setSize (450, 200) ;
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    Container contenu = getContentPane() ;
        /* creation paneau pour les dessins */
     pan = new Paneau() ;
     contenu.add(pan) ;
@@ -82,13 +86,13 @@ public class ExMenuAc extends JApplet implements ActionListener
     { String ch = JOptionPane.showInputDialog (this, "Hauteur") ;
       pan.setHauteur (Integer.parseInt(ch)) ;
     }
-    if (source == ovale)     pan.setOvale() ;
-    if (source == rectangle) pan.setRectangle() ;
+    if (source == ovale)     pan.setOvale(ovale.isSelected()) ;
+    if (source == rectangle) pan.setRectangle(rectangle.isSelected()) ;
     pan.repaint() ;
   }
   private JMenuBar barreMenus ;
   private JMenu couleur, dimensions, formes ;
-  private JMenuItem [] itemCouleurs ;
+  //private JMenuItem [] itemCouleurs ;
   private JMenuItem largeur, hauteur ;
   private JCheckBoxMenuItem rectangle, ovale ;
   private JPopupMenu couleurSurg ;
@@ -102,8 +106,8 @@ class Paneau extends JPanel
     if (ovale)     g.drawOval (10, 10, 10+largeur, 10+hauteur) ;
     if (rectangle) g.drawRect (10, 10, 10+largeur, 10+hauteur) ;
   }
-  public void setRectangle() {rectangle = true ; }
-  public void setOvale()     {ovale = true ;  }
+  public void setRectangle(boolean trace) {rectangle = trace ; }
+  public void setOvale(boolean trace)     {ovale = trace ;  }
   public void setLargeur (int l) { largeur = l ; }
   public void setHauteur (int h) { hauteur = h ; }
   public void setCouleur (Color c) { setBackground (c) ; }
@@ -129,16 +133,11 @@ class ActionCouleur extends AbstractAction
   private Paneau pan ;
   static ActionCouleur actionInactive ;   // ne pas oublier static
 }
+public class ExMenuAc
+{ public static void main (String args[])
+  { FenMenu fen = new FenMenu() ;
+    fen.setVisible(true) ;
+  }
+}
 
 
- // modifs :
- // changement nom fenetre : ExMenuAc ici
- // supp constructeur transforme en init
- // supp dimensions
- // classe publique ici
- // recopie icones
-
- // OK mais pas de menu Popup !!!
- // pas de redimentionnement !!!!  --> tests avec panneau
- 
- 

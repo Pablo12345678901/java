@@ -1,19 +1,24 @@
-package ZZZ_Ressources_livres.chap15;
 import java.awt.*;
 import java.awt.event.* ;
 import javax.swing.* ;
 import javax.swing.event.* ;
+
 class FenOutil extends JFrame implements ActionListener
 { public FenOutil ()
   { setTitle ("Barre d'outils") ;
     setSize (300, 100) ;
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
     Container contenu = getContentPane() ;
       /* creation barre d'outils couleurs */
     barreOutils = new JToolBar () ;
     boutonRouge = new JButton (new ImageIcon("rouge.gif")) ;
+    boutonRouge.addActionListener(this);
     barreOutils.add (boutonRouge) ;
+
     boutonVert = new JButton (new ImageIcon ("vert.gif")) ;
+    boutonVert.addActionListener(this);
     barreOutils.add (boutonVert) ;
+    
     contenu.add(barreOutils, "North") ;
   }
   public void actionPerformed (ActionEvent e)

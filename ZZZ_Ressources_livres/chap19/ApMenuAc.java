@@ -3,6 +3,9 @@ import java.awt.*;
 import java.awt.event.* ;
 import javax.swing.* ;
 import javax.swing.event.* ;
+
+import ZZZ_Ressources_livres.chap15.chap15_sous.ActionCouleur;
+import ZZZ_Ressources_livres.chap15.chap15_sous.Paneau;
 public class ApMenuAc extends JApplet implements ActionListener
 { static public final String[] nomCouleurs =
                          {"rouge",    "vert",       "jaune",      "bleu"} ;

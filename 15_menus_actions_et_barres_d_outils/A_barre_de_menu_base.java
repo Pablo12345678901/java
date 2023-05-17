@@ -1,5 +1,8 @@
 import javax.swing.* ;
 import javax.swing.event.* ;
+
+import Z_debug.FenDialog;
+
 import java.awt.* ;
 import java.awt.event.* ;
 

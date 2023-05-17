@@ -2,7 +2,7 @@ package ZZZ_Ressources_livres.AnnexeH;
 import java.awt.* ;   // pour Desktop
 import java.io.* ;    // pour IOException
 import java.net.*;    // pour URI 
-public class testDesktop 
+public class TestDesktop 
 {  public static void main (String[] args)throws URISyntaxException, IOException
   {  if (Desktop.isDesktopSupported())System.out.println ("Desktop supporte");
                                 else { System.out.println ("Desktop non supporte") ;

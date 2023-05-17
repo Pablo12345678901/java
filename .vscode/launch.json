@@ -6,16 +6,30 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Flipper",
+            "name": "E_abstract_action_meme_action_plusieurs_source",
             "request": "launch",
-            "mainClass": "Flipper",
+            "mainClass": "Z_debug.E_abstract_action_meme_action_plusieurs_source",
             "projectName": "java_b7e2f229"
         },
         {
             "type": "java",
-            "name": "B_wait_et_notify",
+            "name": "ExMenuAc",
             "request": "launch",
-            "mainClass": "B_wait_et_notify",
+            "mainClass": "ZZZ_Ressources_livres.chap15.chap15_sous.ExMenuAc",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "ExMenuAc",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap15.ExMenuAc",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "E_abstract_action_meme_action_plusieurs_source",
+            "request": "launch",
+            "mainClass": "E_abstract_action_meme_action_plusieurs_source",
             "projectName": "java_b7e2f229"
         },
         {
@@ -33,6 +47,13 @@
         },
         {
             "type": "java",
+            "name": "A_2_cases_et_un_bouton_d_etat",
+            "request": "launch",
+            "mainClass": "A_2_cases_et_un_bouton_d_etat",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "A_PremProg",
             "request": "launch",
             "mainClass": "A_PremProg",
@@ -40,9 +61,37 @@
         },
         {
             "type": "java",
+            "name": "A_barre_de_menu_base",
+            "request": "launch",
+            "mainClass": "A_barre_de_menu_base",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "A_base_fenetre",
+            "request": "launch",
+            "mainClass": "A_base_fenetre",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "A_boite_de_message_basique",
+            "request": "launch",
+            "mainClass": "A_boite_de_message_basique",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "A_boolean",
             "request": "launch",
             "mainClass": "A_boolean",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "A_deux_threads_et_methodes_synchronized",
+            "request": "launch",
+            "mainClass": "A_deux_threads_et_methodes_synchronized",
             "projectName": "java_b7e2f229"
         },
         {
@@ -103,9 +152,23 @@
         },
         {
             "type": "java",
+            "name": "B_fenetre_avance",
+            "request": "launch",
+            "mainClass": "B_fenetre_avance",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "B_instance_of",
             "request": "launch",
             "mainClass": "B_instance_of",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "B_message_avec_image_modifiee",
+            "request": "launch",
+            "mainClass": "B_message_avec_image_modifiee",
             "projectName": "java_b7e2f229"
         },
         {
@@ -120,6 +183,13 @@
             "name": "B_variables",
             "request": "launch",
             "mainClass": "B_variables",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "C_boite_de_confirmation",
+            "request": "launch",
+            "mainClass": "C_boite_de_confirmation",
             "projectName": "java_b7e2f229"
         },
         {
@@ -152,6 +222,13 @@
         },
         {
             "type": "java",
+            "name": "D_boite_de_saisie",
+            "request": "launch",
+            "mainClass": "D_boite_de_saisie",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "D_boucle_et_if",
             "request": "launch",
             "mainClass": "D_boucle_et_if",
@@ -180,9 +257,23 @@
         },
         {
             "type": "java",
+            "name": "Flipper",
+            "request": "launch",
+            "mainClass": "Flipper",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "G_test_pour_import",
             "request": "launch",
             "mainClass": "G_test_pour_import",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "H_liste_combo",
+            "request": "launch",
+            "mainClass": "H_liste_combo",
             "projectName": "java_b7e2f229"
         },
         {
@@ -201,9 +292,23 @@
         },
         {
             "type": "java",
+            "name": "O_plusieurs_boutons_aggrandir_rapetisser",
+            "request": "launch",
+            "mainClass": "O_plusieurs_boutons_aggrandir_rapetisser",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "BarreDesTaches",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.AnnexeH.BarreDesTaches",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(1)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.AnnexeH.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -225,6 +330,13 @@
             "name": "testDesktop",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.AnnexeH.testDesktop",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(2)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap02.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -257,7 +369,14 @@
         },
         {
             "type": "java",
-            "name": "Clavier(1)",
+            "name": "Clavier(3)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap03.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(4)",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap04.Clavier",
             "projectName": "java_b7e2f229"
@@ -309,6 +428,13 @@
             "name": "Break",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap05.Break",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(5)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap05.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -404,6 +530,13 @@
         },
         {
             "type": "java",
+            "name": "Clavier(6)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap06.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "Coincid2",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap06.Coincid2",
@@ -442,6 +575,13 @@
             "name": "TstSeg",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap06.TstSeg",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(7)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap07.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -488,6 +628,13 @@
         },
         {
             "type": "java",
+            "name": "Clavier(8)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap08.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "Equals",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap08.Equals",
@@ -505,6 +652,13 @@
             "name": "ArgMain",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap09.ArgMain",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(9)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap09.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -572,6 +726,13 @@
         },
         {
             "type": "java",
+            "name": "Clavier(10)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap10.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "ExcStd1",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap10.ExcStd1",
@@ -593,7 +754,7 @@
         },
         {
             "type": "java",
-            "name": "Clavier(2)",
+            "name": "Clavier(11)",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap11.Clavier",
             "projectName": "java_b7e2f229"
@@ -642,6 +803,13 @@
         },
         {
             "type": "java",
+            "name": "Clavier(12)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap12.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "Clic1",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap12.Clic1",
@@ -659,6 +827,13 @@
             "name": "Cases1",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap13.Cases1",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(13)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap13.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -694,6 +869,13 @@
             "name": "Text1",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap13.Text1",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(14)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap14.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -754,6 +936,13 @@
         },
         {
             "type": "java",
+            "name": "Clavier(15)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap15.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "Outil1",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap15.Outil1",
@@ -761,9 +950,23 @@
         },
         {
             "type": "java",
+            "name": "Clavier(16)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap16.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "Clavier0",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap16.Clavier0",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(17)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap17.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -782,6 +985,20 @@
         },
         {
             "type": "java",
+            "name": "Clavier(18)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap18.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(19)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap19.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "Accdir",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap20.Accdir",
@@ -792,6 +1009,13 @@
             "name": "Accdir1",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap20.Accdir1",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(20)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap20.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -873,6 +1097,13 @@
         },
         {
             "type": "java",
+            "name": "Clavier(21)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap21.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "Couple1",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap21.Couple1",
@@ -904,6 +1135,13 @@
             "name": "Array2",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap22.Array2",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(22)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap22.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -985,6 +1223,13 @@
         },
         {
             "type": "java",
+            "name": "Clavier(23)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap23.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "LambdaRappel2",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap23.LambdaRappel2",
@@ -1027,6 +1272,13 @@
         },
         {
             "type": "java",
+            "name": "Clavier(24)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap24.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "IntroAnnot",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap24.IntroAnnot",
@@ -1051,6 +1303,13 @@
             "name": "CalculDuree",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap25.CalculDuree",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(25)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap25.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -1086,6 +1345,20 @@
             "name": "PbDateLocale",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap25.PbDateLocale",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(26)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap26.Clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(27)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap27.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
@@ -1177,6 +1450,13 @@
             "name": "Adaptateur1",
             "request": "launch",
             "mainClass": "ZZZ_Ressources_livres.chap28.Adaptateur1",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "Clavier(28)",
+            "request": "launch",
+            "mainClass": "ZZZ_Ressources_livres.chap28.Clavier",
             "projectName": "java_b7e2f229"
         },
         {
