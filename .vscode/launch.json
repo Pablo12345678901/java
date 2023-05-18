@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "B_taper_du_texte_et_detecter_touches_clavier",
+            "request": "launch",
+            "mainClass": "B_taper_du_texte_et_detecter_touches_clavier",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "E_abstract_action_meme_action_plusieurs_source",
             "request": "launch",
             "mainClass": "Z_debug.E_abstract_action_meme_action_plusieurs_source",

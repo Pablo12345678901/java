@@ -15,7 +15,7 @@ class MaFenetre extends JFrame implements KeyListener
   }
   public void keyReleased (KeyEvent e)
   { int code = e.getKeyCode() ;
-    System.out.println ("Touche"+code+ " relachee : " + e.getKeyText (code)) ;
+    System.out.println ("Touche "+code+ " relachee : " + e.getKeyText (code)) ;
   }
   public void keyTyped (KeyEvent e)
   { char c = e.getKeyChar() ;
