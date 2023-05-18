@@ -1,8 +1,8 @@
-//package ZZZ_Ressources_livres.chap17;
+package ZZZ_Ressources_livres.chap17;
 import javax.swing.* ;
 import java.awt.* ;
 import java.awt.event.* ;
-//import javax.swing.event.* ;
+import javax.swing.event.* ;
 
 class MaFenetre extends JFrame implements ActionListener
 { public static int NBOUTONS = 8 ;
@@ -45,7 +45,6 @@ class MaFenetre extends JFrame implements ActionListener
   private CardLayout pile ;
   private JButton prec, suiv, prem, der ;
 }
-
 public class Layout3
 { public static void main (String args[])
   { MaFenetre fen = new MaFenetre() ;
