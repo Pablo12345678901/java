@@ -51,7 +51,7 @@ class ThrInput extends Thread
     private BufferedReader entree ;
     private Socket soc ;
     private String message = null ;
-    private static boolean encours ;
+    private boolean encours ;
 }
 
 class ThrOutput extends Thread
@@ -99,5 +99,5 @@ class ThrOutput extends Thread
     private OutputStreamWriter sortie ;
     private Socket soc ;
     private String message = null ;
-    private static boolean encours ;
+    private boolean encours ;
 }
