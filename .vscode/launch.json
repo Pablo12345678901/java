@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "A_fonctions_lambda",
+            "request": "launch",
+            "mainClass": "A_fonctions_lambda",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "B_taper_du_texte_et_detecter_touches_clavier",
             "request": "launch",
             "mainClass": "B_taper_du_texte_et_detecter_touches_clavier",
