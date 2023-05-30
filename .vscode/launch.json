@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "C_reference_a_methode_dun_objet",
+            "request": "launch",
+            "mainClass": "C_reference_a_methode_dun_objet",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "B_reference_methode_de_class",
+            "request": "launch",
+            "mainClass": "B_reference_methode_de_class",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "A_fonctions_lambda",
             "request": "launch",
             "mainClass": "A_fonctions_lambda",
