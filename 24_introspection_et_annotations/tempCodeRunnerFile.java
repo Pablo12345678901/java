@@ -1,0 +1,1 @@
+B2_introspection_class_affichage_membres_methodes_et_constructeur
