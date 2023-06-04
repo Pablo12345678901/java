@@ -1,4 +1,4 @@
-package z_26_modules_et_packages.x_test_packages.packages_test ;
+package z_26_modules_et_packages.packages.packages_test ;
 
 public class A_class {
     public A_class() {  this.x = 10; this.y = 20 ; }

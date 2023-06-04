@@ -1,6 +1,7 @@
-package z_26_modules_et_packages.x_test_packages.packages_test ;
+package z_26_modules_et_packages.packages.autre_package;
+import z_26_modules_et_packages.packages.packages_test.*;
 
-public class B_class {
+public class C_class {
     public void affiche() { System.out.println(bonjour + " " + bonsoir) ;}
     public void affiche(A_class a) { System.out.println(bonjour + a.x + " " + bonsoir + a.y) ;}
     public String bonjour = "Bonjour " ;

@@ -1,5 +1,5 @@
-package z_26_modules_et_packages.x_test_packages;
-import z_26_modules_et_packages.x_test_packages.packages_test.*;
+package z_26_modules_et_packages.packages;
+import z_26_modules_et_packages.packages.packages_test.*;
 
 public class D_class {
     public static void main(String[] args) {
