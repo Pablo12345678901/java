@@ -1,10 +1,10 @@
-package ZZZ_Ressources_livres.chap15;
+package zzz_ressources_livres.chap15;
 import java.awt.*;
 import java.awt.event.* ;
 import javax.swing.* ;
 import javax.swing.event.* ;
 
-import ZZZ_Ressources_livres.chap15.chap15_sous.FenMenu;
+import zzz_ressources_livres.chap15.chap15_sous.FenMenu;
 class FenOutil extends JFrame implements ActionListener
 { public FenOutil ()
   { setTitle ("Barre d'outils") ;

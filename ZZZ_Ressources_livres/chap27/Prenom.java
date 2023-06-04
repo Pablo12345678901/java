@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap27;
+package zzz_ressources_livres.chap27;
 public class Prenom 
 { public Prenom ()
  { prenom = "" ;

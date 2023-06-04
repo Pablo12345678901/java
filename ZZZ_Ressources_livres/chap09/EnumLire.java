@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap09;
+package zzz_ressources_livres.chap09;
 import java.io.* ;
 
 public class EnumLire

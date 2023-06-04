@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap08;
+package zzz_ressources_livres.chap08;
 class A
 { public int n= 4 ;
 }

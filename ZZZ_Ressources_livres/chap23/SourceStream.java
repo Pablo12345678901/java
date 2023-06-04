@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap23;
+package zzz_ressources_livres.chap23;
 import java.util.stream.* ;
 import java.util.* ;
 public class SourceStream

@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap27 ;
+package zzz_ressources_livres.chap27 ;
 public class PointBean
 {   public PointBean ()
     { abs=0 ; ord=0 ; 

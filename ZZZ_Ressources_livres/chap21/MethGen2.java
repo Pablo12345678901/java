@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap21;
+package zzz_ressources_livres.chap21;
  public class MethGen2
  { static <T> T hasard (T e1, T e2)
    { double x = Math.random() ;

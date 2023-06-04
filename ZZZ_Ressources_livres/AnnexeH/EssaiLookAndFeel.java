@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.AnnexeH;
+package zzz_ressources_livres.AnnexeH;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;

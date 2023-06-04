@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap23;
+package zzz_ressources_livres.chap23;
 interface Calculateur { public int calcul (int n) ; }
 public class TableauLambda
 { public static void main (String [] args)

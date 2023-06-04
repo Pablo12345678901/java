@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap06;
+package zzz_ressources_livres.chap06;
 class Obj
 { public Obj()
   { System.out.print ("++ creation objet Obj ; ") ;

@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap27;
+package zzz_ressources_livres.chap27;
     <%-- creation d'un objet de type PrenomBean --%>
 <jsp:useBean id="objetPrenom" class="beans.PrenomBean" />
   <%-- on initialise le champ prenom avec la valeur du parametre prenom --%>

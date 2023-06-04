@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap23;
+package zzz_ressources_livres.chap23;
 interface Distanciable { public int distance (Point p1, Point p2 ) ; }
 public class RefMethClassse
 { public static void main (String [] args)

@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap24;
+package zzz_ressources_livres.chap24;
 import java.lang.reflect.*;
 public class MethodesClass2
 {  public static void main(String args[])

@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap27;
+package zzz_ressources_livres.chap27;
 import java.io.* ;
 import javax.servlet.* ; 
 import javax.servlet.http.* ;

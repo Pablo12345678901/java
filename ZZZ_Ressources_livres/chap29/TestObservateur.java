@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap29;
+package zzz_ressources_livres.chap29;
 import java.util.*;     // pour Observer et Observable
 class ObservateurDePoints implements Observer
 {  public void update (Observable obj, Object o)  // ici o est null

@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap05;
+package zzz_ressources_livres.chap05;
 
 // classe fournissant des fonctions de lecture au clavier -
 import java.io.* ;

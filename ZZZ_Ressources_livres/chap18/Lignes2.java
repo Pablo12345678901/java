@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap18;
+package zzz_ressources_livres.chap18;
 import javax.swing.* ;
 import java.awt.* ;
 class MaFenetre extends JFrame

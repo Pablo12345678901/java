@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap20;
+package zzz_ressources_livres.chap20;
 import javax.swing.* ;  // pour showInputDialog
 import java.io.* ;
 public class Lecsfic1

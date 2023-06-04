@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.AnnexeH;
+package zzz_ressources_livres.AnnexeH;
 import java.io.* ;
 public class TestConsole
 { public static void main (String args[])

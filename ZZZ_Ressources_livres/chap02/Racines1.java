@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap02;
+package zzz_ressources_livres.chap02;
 // Calcul de racines carrees
 // La classe Racines utilise la classe Clavier
 public class Racines1  { public

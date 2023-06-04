@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap05;
+package zzz_ressources_livres.chap05;
 public class For4
 { public static void main (String args[])
   {  for (int i=1 , j=3 ; i<=5 ; i++, j+=i)

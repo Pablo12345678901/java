@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap29;
+package zzz_ressources_livres.chap29;
 abstract class BoutonRadio
 { public abstract String type () ; }
 class BoutonRadioA extends BoutonRadio

@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap10;
+package zzz_ressources_livres.chap10;
 class Point
 { public Point(int x, int y) throws ErrConst
   { if ( (x<0) || (y<0))

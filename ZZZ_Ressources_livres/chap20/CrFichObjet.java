@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap20;
+package zzz_ressources_livres.chap20;
 import java.io.* ;
 class Point implements Serializable 
 { Point (int abs, int ord) {x = abs ; y = ord ; }

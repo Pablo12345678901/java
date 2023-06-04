@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap04;
+package zzz_ressources_livres.chap04;
 public class Conver
 { public static void main (String args[])
   { byte b1 = 50, b2 = 100 ;

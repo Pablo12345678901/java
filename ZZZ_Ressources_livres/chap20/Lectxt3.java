@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap20;
+package zzz_ressources_livres.chap20;
 import java.io.* ;
 import java.util.* ;    // pour StringTokenizer
 public class Lectxt3

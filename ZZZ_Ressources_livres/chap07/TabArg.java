@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap07;
+package zzz_ressources_livres.chap07;
 public class TabArg
 { public static void main (String args[])
   { int t[] = { 1, 3, 5, 7} ;

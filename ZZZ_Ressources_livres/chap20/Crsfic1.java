@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap20;
+package zzz_ressources_livres.chap20;
 import java.io.* ;
 public class Crsfic1
 { public static void main (String args[]) throws IOException

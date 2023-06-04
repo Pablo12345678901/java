@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap21;
+package zzz_ressources_livres.chap21;
 public class CoupleHerit
 { public static void main (String args[])
   { Object o1 = null; Integer i1 = 5 ;

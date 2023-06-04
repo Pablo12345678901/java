@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap29;
+package zzz_ressources_livres.chap29;
 interface Pixel
 { void affiche () ;
   void deplace (int dx, int dy) ;

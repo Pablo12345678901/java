@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap14;
+package zzz_ressources_livres.chap14;
 import javax.swing.* ;
 public class Input1
 { public static void main (String args[])

@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap08;
+package zzz_ressources_livres.chap08;
 class A
 { public void affiche()
   { System.out.println ("Je suis un A") ;

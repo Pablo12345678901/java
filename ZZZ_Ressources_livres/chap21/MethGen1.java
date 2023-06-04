@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap21;
+package zzz_ressources_livres.chap21;
 public class MethGen1
  { static <T> T hasard (T [] valeurs)
    { int n = valeurs.length ;

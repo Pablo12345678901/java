@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap02;
+package zzz_ressources_livres.chap02;
 public class Exemple
 { public static void main (String[] args)
   { int n ;

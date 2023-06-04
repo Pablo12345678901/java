@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap29;
+package zzz_ressources_livres.chap29;
 abstract class ModeAffichage
 { public abstract void presente (int x, int y) ; }
 class AffichageCourt extends ModeAffichage

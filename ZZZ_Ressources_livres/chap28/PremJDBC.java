@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap28;
+package zzz_ressources_livres.chap28;
 import java.sql.* ;    // pour SQLException, DriverManager, Statement, ResultSet
 public class PremJDBC         
 { public static void main (String[] args) 

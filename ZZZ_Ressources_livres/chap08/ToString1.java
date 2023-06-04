@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap08;
+package zzz_ressources_livres.chap08;
 class Point
 { public Point(int abs, int ord)
   { x = abs ; y = ord ;

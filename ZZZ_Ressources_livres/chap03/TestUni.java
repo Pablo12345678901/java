@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap03;
+package zzz_ressources_livres.chap03;
 public class TestUni
 {  static void main (String[] args)
   { final char carDeb = 200, carFin = 300 ;

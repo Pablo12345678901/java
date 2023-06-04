@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap28;
+package zzz_ressources_livres.chap28;
 import java.sql.* ;
 public class ResMeta2
 { public static void main (String[] args) throws ClassNotFoundException, SQLException

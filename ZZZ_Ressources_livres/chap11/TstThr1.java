@@ -1,3 +1,4 @@
+package zzz_ressources_livres.chap11;
 public class TstThr1
 { public static void main (String args[])
   { Ecrit e1 = new Ecrit ("bonjour ", 10, 5) ;

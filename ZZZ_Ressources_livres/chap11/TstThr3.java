@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap11;
+package zzz_ressources_livres.chap11;
 public class TstThr3
 { public static void main (String args[])
   { Ecrit e1 = new Ecrit ("bonjour ", 10, 5) ;

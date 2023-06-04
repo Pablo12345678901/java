@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap06;
+package zzz_ressources_livres.chap06;
 public class Point
 { public void initialise (int abs, int ord)
   { x = abs ;

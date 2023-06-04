@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap05;
+package zzz_ressources_livres.chap05;
 public class While1
 { public static void main (String args[])
   { int n, som ;

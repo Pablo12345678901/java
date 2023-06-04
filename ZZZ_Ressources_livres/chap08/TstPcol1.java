@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap08;
+package zzz_ressources_livres.chap08;
    // classe de base
 class Point
 { public void initialise (int abs, int ord)

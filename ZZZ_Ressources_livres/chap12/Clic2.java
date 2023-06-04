@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap12;
+package zzz_ressources_livres.chap12;
 import javax.swing.* ;
 import java.awt.event.* ;
 class MaFenetre extends JFrame implements MouseListener

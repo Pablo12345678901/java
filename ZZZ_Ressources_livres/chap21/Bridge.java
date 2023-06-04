@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap21;
+package zzz_ressources_livres.chap21;
 public class Bridge
 { public static void main (String args[])
   { A<Double> ad = new A<Double> () ;

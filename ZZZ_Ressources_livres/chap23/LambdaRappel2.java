@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap23;
+package zzz_ressources_livres.chap23;
 import java.util.function.* ;    // pour intUnaryOperator
 public class LambdaRappel2
 { public static void main (String [] args)

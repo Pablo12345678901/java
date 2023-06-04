@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap28;
+package zzz_ressources_livres.chap28;
 import java.sql.* ;
 import javax.sql.rowset.* ;   // pour rowset
 import com.sun.rowset.JdbcRowSetImpl ;  // indispensable !!!  

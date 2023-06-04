@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap06;
+package zzz_ressources_livres.chap06;
 public class TstPnt3
 { public static void main (String args[])
   { Point a ;

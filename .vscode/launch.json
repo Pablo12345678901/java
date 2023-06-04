@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "C_class",
+            "request": "launch",
+            "mainClass": "Module_B/x_test_packages.autre_package.C_class",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "C_reference_a_methode_dun_objet",
             "request": "launch",
             "mainClass": "C_reference_a_methode_dun_objet",

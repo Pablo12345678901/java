@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap21;
+package zzz_ressources_livres.chap21;
 class Couple<T>
 { private T x, y ;      // les deux elements du couple
   public Couple (T premier, T second)

@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap29;
+package zzz_ressources_livres.chap29;
 import java.util.* ;         // pour ArrayList
 abstract class Composant
 { public void ajoute (Composant c) {}

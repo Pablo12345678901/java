@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap09;
+package zzz_ressources_livres.chap09;
 public class ConvChD
 { public static void main (String args[])
   { String ch ;

@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap06;
+package zzz_ressources_livres.chap06;
 
 public class Surdfacc
 { public static void main (String args[])

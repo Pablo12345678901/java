@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap11;
+package zzz_ressources_livres.chap11;
 public class Synchr1a
 { public static void main (String args[])
   { Nombres nomb = new Nombres() ;

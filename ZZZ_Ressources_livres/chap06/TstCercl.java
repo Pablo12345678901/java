@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap06;
+package zzz_ressources_livres.chap06;
 class Cercle
 { class Centre    // d�finition interne a Cercle
   { public Centre (int x, int y)

@@ -1,3 +1,4 @@
+package zzz_ressources_livres.chap26;
 // classe fournissant des fonctions de lecture au clavier -
 import java.io.* ;
 public class Clavier

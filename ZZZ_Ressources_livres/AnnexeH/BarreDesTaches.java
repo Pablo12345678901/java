@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.AnnexeH;
+package zzz_ressources_livres.AnnexeH;
 
 import java.awt.* ;
 import javax.swing.* ;

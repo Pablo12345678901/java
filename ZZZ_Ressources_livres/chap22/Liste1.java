@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap22;
+package zzz_ressources_livres.chap22;
 import java.util.* ;
 public class Liste1
 { public static void main (String args[])

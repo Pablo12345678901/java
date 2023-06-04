@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap15.chap15_sous;
+package zzz_ressources_livres.chap15.chap15_sous;
 
 import java.awt.*;
 import java.awt.event.* ;

@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap06;
+package zzz_ressources_livres.chap06;
 class Util
 { public static void echange (int a, int b)  // ne pas oublier static
   { System.out.println ("debut echange : " + a + " " + b) ;

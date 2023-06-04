@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap08;
+package zzz_ressources_livres.chap08;
 class Point
 { public Point (int x, int y)
   { this.x = x ; this.y = y ;

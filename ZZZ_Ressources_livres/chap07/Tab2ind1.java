@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap07;
+package zzz_ressources_livres.chap07;
 class Util
 { static void raz (int t[] [])
   { int i, j ;

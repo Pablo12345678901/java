@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap10;
+package zzz_ressources_livres.chap10;
 public class ExcStd1
 { public static void main (String args[])
   { try

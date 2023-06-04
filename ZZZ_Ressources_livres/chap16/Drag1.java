@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap16;
+package zzz_ressources_livres.chap16;
 import java.awt.* ;
 import java.awt.event.* ;
 import javax.swing.* ;

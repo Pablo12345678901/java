@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap07;
+package zzz_ressources_livres.chap07;
 public class Ellipse
 { public static void main (String args[])
   { System.out.println (somme (2, 8, 9) ) ;

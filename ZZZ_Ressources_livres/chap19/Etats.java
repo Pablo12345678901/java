@@ -1,4 +1,4 @@
-package ZZZ_Ressources_livres.chap19;
+package zzz_ressources_livres.chap19;
 import javax.swing.* ;
 public class Etats extends JApplet
 {  public Etats ()
