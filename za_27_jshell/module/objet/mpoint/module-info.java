@@ -1,0 +1,3 @@
+module mpoint {
+    exports ppoint ;
+}

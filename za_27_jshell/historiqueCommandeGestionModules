@@ -1,0 +1,31 @@
+/env -module-path '/Users/alejandramt/Developpement/java/za_27_jshell/module/objet/mpoint'
+/env -module-path /Users/alejandramt/Developpement/java/za_27_jshell/module/objet/mpoint
+/env -add-modules mpoint
+/reset
+Point a = new Point(1,1)
+/env -module-path /Users/alejandramt/Developpement/java/za_27_jshell/module/objet/mpoint
+/env -add-modules mpoint
+Point a = new Point(1,1)
+import ppoint.Point
+Point a = new Point(1,1)
+a.affiche()
+/env -add-exports autrepackage
+/env -add-exports mpoint/autrepackage
+/env
+mainpoint.main(null)
+import autrepackage
+import autrepackage.mainpoint
+import autrepackage
+import autrepackage;
+/env
+import autrepackage;
+import autrepackage.mainpoint
+/env
+import mpoint/autrepackage.mainpoint
+import mpoint.autrepackage.mainpoint
+/env
+/env -add-exports mpoint/autrepackage
+mainpoint.main(null)
+/env
+autrepackage.mainpoint.main(null)
+/save -history historiqueCommandeGestionModules

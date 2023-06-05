@@ -1,4 +1,3 @@
-package ZZZ_Ressources_livres.AnnexeH;
 
 // classe fournissant des fonctions de lecture au clavier -
 import java.io.* ;

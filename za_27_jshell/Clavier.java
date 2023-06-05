@@ -1,3 +1,4 @@
+package za_27_jshell ;
 // classe fournissant des fonctions de lecture au clavier -
 import java.io.* ;
 public class Clavier

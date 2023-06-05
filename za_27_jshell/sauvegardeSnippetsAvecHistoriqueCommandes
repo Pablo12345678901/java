@@ -1,0 +1,3 @@
+/open listecommandejshell
+/list -all
+/save -history sauvegardeSnippetsAvecHistoriqueCommandes
