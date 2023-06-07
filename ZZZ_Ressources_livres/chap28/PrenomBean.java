@@ -1,4 +1,4 @@
-package zzz_ressources_livres.chap28 ;
+//package zzz_ressources_livres.chap28 ;
 public class PrenomBean 
 { public PrenomBean ()
  { prenom = "" ;

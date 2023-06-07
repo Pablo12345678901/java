@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "A_affichage_mots_a_la_suite",
+            "request": "launch",
+            "mainClass": "A_affichage_mots_a_la_suite",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "C_class",
             "request": "launch",
             "mainClass": "Module_B/x_test_packages.autre_package.C_class",

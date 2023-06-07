@@ -1,6 +1,14 @@
 //package ZZZ_Ressources_livres.chap18;
 import javax.swing.* ;
 import java.awt.* ;
+
+public class A_affichage_mots_a_la_suite
+{   public static void main (String args[])
+    {   MaFenetre fen = new MaFenetre() ;
+        fen.setVisible(true) ;
+    }
+}
+
 class MaFenetre extends JFrame
 {   MaFenetre ()
     {   setTitle ("Essai texte") ;
@@ -49,9 +57,4 @@ class Paneau extends JPanel
     private static int i = 0 ;
 }
 
-public class A_affichage_mots_a_la_suite
-{   public static void main (String args[])
-    {   MaFenetre fen = new MaFenetre() ;
-        fen.setVisible(true) ;
-    }
-}
+
