@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PremJDBC",
+            "request": "launch",
+            "mainClass": "PremJDBC",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "PremJDBC",
+            "request": "launch",
+            "mainClass": "zzz_ressources_livres.chap29.PremJDBC",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "A_affichage_mots_a_la_suite",
             "request": "launch",
             "mainClass": "A_affichage_mots_a_la_suite",

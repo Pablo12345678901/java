@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jun 11 17:41:56 CEST 2023:
+Amorçage de Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046) : instance a816c00e-0188-ab1f-01cc-0000075404d8 
+dans le répertoire de base de données /Users/alejandramt/Developpement/java/zc_29_bases_de_donnees_avec_jdbc/stocks avec le chargeur de classe jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a
+Chargé de file:/usr/local/Cellar/derby/10.16.1.1/libexec/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=20.0.1+9-29
+user.dir=/Users/alejandramt/Developpement/java/zc_29_bases_de_donnees_avec_jdbc
+os.name=Mac OS X
+os.arch=x86_64
+os.version=13.4
+derby.system.home=null
+Chargeur de classe de la base de données démarré - derby.database.classpath = ''
