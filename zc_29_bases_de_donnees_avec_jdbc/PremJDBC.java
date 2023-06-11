@@ -20,6 +20,7 @@ public class PremJDBC
     String name ;
     while (res.next()) // .next déplace le curseur et renvoie null comme résultat si je suis après la fin (ou avant le début)
     // raison pour laquelle la boucle commence avec cette instruction
+    // index 1 = première colonne (pas comme dans un tableau)
     {  ref = res.getString(1) ;        // premi�re colonne du r�sultat
          name = res.getString (2) ;     // deuxi�me colonne du r�sultat
        System.out.println (ref + " " + name) ;
