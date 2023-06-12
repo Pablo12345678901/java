@@ -1,0 +1,7 @@
+/open listecommandejshell
+/list -all
+/save -history sauvegardeSnippetsAvecHistoriqueCommandes
+/open '/Users/alejandramt/Developpement/java/b_1_base/Hello.java'; Hello.main(null) ;
+/open /Users/alejandramt/Developpement/java/b_1_base/Hello.java
+Hello.main(null)
+/save -history -all

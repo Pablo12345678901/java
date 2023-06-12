@@ -1,3 +1,5 @@
+//package  zc_29_bases_de_donnees_avec_jdbc ;
+
 import java.sql.* ;    // pour SQLException, DriverManager, Statement, ResultSet
 
 public class PremJDBC         

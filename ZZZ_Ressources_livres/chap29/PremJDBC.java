@@ -1,5 +1,5 @@
-package zzz_ressources_livres.chap29;
 import java.sql.* ;    // pour SQLException, DriverManager, Statement, ResultSet
+
 public class PremJDBC         
 { public static void main (String[] args) 
       throws ClassNotFoundException, SQLException  // on ne traite pas les exceptions

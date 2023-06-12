@@ -1,0 +1,4 @@
+// taper dans le terminal :
+
+
+open /Users/alejandramt/Library/Java/JavaVirtualMachines/temurin-16.0.2/Contents/Home/lib/src

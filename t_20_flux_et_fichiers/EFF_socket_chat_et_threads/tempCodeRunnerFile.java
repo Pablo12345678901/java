@@ -1,1 +1,0 @@
-boolean encours = true ;

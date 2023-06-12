@@ -1,7 +1,16 @@
+package m_13_controles_usuels ;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.* ;
+
+public class E_champs_de_texte_et_focus {
+    public static void main(String[] args) {
+        Fenetre ma_fenetre = new Fenetre() ;
+        ma_fenetre.setVisible(true);
+    }    
+}
 
 class Fenetre extends JFrame implements ActionListener, FocusListener {
     public Fenetre() {
@@ -53,9 +62,3 @@ class Fenetre extends JFrame implements ActionListener, FocusListener {
     private JTextField texte_saisi, texte_copie ;
 }
     
-public class E_champs_de_texte_et_focus {
-    public static void main(String[] args) {
-        Fenetre ma_fenetre = new Fenetre() ;
-        ma_fenetre.setVisible(true);
-    }    
-}

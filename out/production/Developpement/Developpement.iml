@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/c_3_types_primitifs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/d_4_operateurs_et_expressions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/f_6_classes_et_objets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/h_8_heritage" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/i_9_chaine_de_char_et_types_enumeres" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/j_10_gestion_des_exceptions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/l_12_base_programmation_graphique" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/m_13_controles_usuels" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/n_14_boites_de_dialogue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/o_15_menus_actions_et_barres_d_outils" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/p_16_evenements_de_bas_niveau" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/q_17_gestionaire_de_mise_en_forme_layout" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/s_19_applets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/u_21_programmation_generique" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/w_23_expressions_lambda_et_streams" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/y_25_gestion_temps_dates_et_heures" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/zb_28_programmation_java_cote_serveur_servlets_et_jsp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/zc_29_bases_de_donnees_avec_jdbc" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

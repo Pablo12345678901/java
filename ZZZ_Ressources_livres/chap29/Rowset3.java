@@ -1,20 +1,24 @@
 package zzz_ressources_livres.chap29;
 import java.sql.* ;
-import com.sun.rowset.CachedRowSetImpl ;   // ou sun.rowset.CachedRowSetImpl
+//import com.sun.rowset.CachedRowSetImpl ;   // ou sun.rowset.CachedRowSetImpl
 //import com.sun.rowset.JdbcRowSetImpl;
+
+
 import javax.sql.rowset.* ;   // pour CachedRowSet
 public class Rowset3
 { public static void main (String[] args) throws ClassNotFoundException, SQLException
   { Class.forName ("org.apache.derby.jdbc.EmbeddedDriver") ; 
     Connection connec = DriverManager.getConnection
           ("jdbc:derby:C:/Documents and Settings/claude/stocks");
+    connec.setAutoCommit(false); // ajouté par moi
       // cr�ation d'un ResultSet 
     String commande = "SELECT nom, quantite FROM produits" ;
     Statement stmt = connec.createStatement() ;
     ResultSet res ;
     res = stmt.executeQuery(commande);
        // cr�ation d'un RowSet enveloppe du ResultSet et utilisation
-    CachedRowSet rs = new CachedRowSetImpl() ;
+    //CachedRowSet rs = new CachedRowSetImpl() ;
+    CachedRowSet rs = RowSetProvider.newFactory().createCachedRowSet() ; // modifié par moi
     rs.populate(res) ;   // on peuple le CachedRowSet avec les donn�es du ResultSet
        // petite mise � jour du premier enregistrement
     rs.first() ;

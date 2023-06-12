@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Developpement.iml" filepath="$PROJECT_DIR$/Developpement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z_26_modules_et_packages/modules/outDir/hello.modules/com/baeldung/modules/hello/hello.iml" filepath="$PROJECT_DIR$/z_26_modules_et_packages/modules/outDir/hello.modules/com/baeldung/modules/hello/hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zzz_ressources_livres/zzz_ressources_livres.iml" filepath="$PROJECT_DIR$/zzz_ressources_livres/zzz_ressources_livres.iml" />
+    </modules>
+  </component>
+</project>
