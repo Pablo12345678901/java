@@ -5,9 +5,14 @@ import java.sql.* ;    // pour SQLException, DriverManager, Statement, ResultSet
 public class ModifBase         
 {   public static void main (String[] args) throws ClassNotFoundException, SQLException 
     {   // recherche et enregistrement du pilote et etablissement connexion
-        Class.forName ("org.apache.derby.jdbc.EmbeddedDriver") ;
+           
+        //Class.forName ("org.apache.derby.jdbc.EmbeddedDriver") ; // inutile - était là avant
+        
         //Connection connec = DriverManager.getConnection("jdbc:derby://localhost:1527//Users/alejandramt/Developpement/java/zc_29_bases_de_donnees_avec_jdbc/stocks");  // pour travailler en serveur en même temps que je visualise la DB via DBEAVER
         Connection connec = DriverManager.getConnection("jdbc:derby:/Users/alejandramt/Developpement/java/zc_29_bases_de_donnees_avec_jdbc/stocks");  // pour travailler en embedded - un seul accès à la fois - je ne peux pas visualiser les data en même temps que je travaille dessus
+        //Connection connec = DriverManager.getConnection("jdbc:derby:stocks") ;
+        //Connection connec = DriverManager.getConnection("jdbc:derby:stocks");  // pour travailler en embedded - un seul accès à la fois - je ne peux pas visualiser les data en même temps que je travaille dessus
+        
         // cr�ation de l'objet de type Statement associ� � la connexion, avec
         // parcours bidirectinnel et r�sultats actualisables 
         String requete = "SELECT * FROM FOURNISSEURS" ;

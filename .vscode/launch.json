@@ -6,21 +6,37 @@
     "configurations": [
         {
             "type": "java",
-            "name": "mpoint/ModifBase",
+            "name": "B_elipse_nb_arguments_variables",
             "request": "launch",
-            "mainClass": "mpoint/ModifBase",
+            "mainClass": "B_elipse_nb_arguments_variables",
             "projectName": "java_b7e2f229"
         },
         {
             "type": "java",
-            "name": "Launch",
+            "name": "B_elipse_nb_arguments_variables",
+            "request": "launch",
+            "mainClass": "g_7_tableaux.B_elipse_nb_arguments_variables",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "PremJDBC",
+            "request": "launch",
+            "mainClass": "PremJDBC",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "B_gestion_des_duree",
+            "request": "launch",
+            "mainClass": "B_gestion_des_duree",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "ModifBase",
             "request": "launch",
             "mainClass": "ModifBase",
-            "classPaths": [
-                "$Auto",
-                "<extra class path>"
-            ],
-            "modulePaths": ".",
             "projectName": "java_b7e2f229"
         }
     ]

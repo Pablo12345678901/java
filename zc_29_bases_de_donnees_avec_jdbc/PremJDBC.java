@@ -6,11 +6,12 @@ public class PremJDBC
 { public static void main (String[] args) 
       throws ClassNotFoundException, SQLException  // on ne traite pas les exceptions
   {   // recherche et enregistrement du pilote (driver)
-     Class.forName ("org.apache.derby.jdbc.EmbeddedDriver") ;
+     //Class.forName ("org.apache.derby.jdbc.EmbeddedDriver") ;
       // �tablissement de la connexion avec la base stocks (cr��e ici avec Derby)
-     Connection connec = DriverManager.getConnection
-                        ("jdbc:derby:stocks"); // nom du répertoire de la DB 
-      // cr�ation de l'objet de type Statement associ� � la connexion, contenant 
+
+     //Connection connec = DriverManager.getConnection("jdbc:derby:stocks"); // nom du répertoire de la DB 
+     Connection connec = DriverManager.getConnection("jdbc:derby:/Users/alejandramt/Developpement/java/zc_29_bases_de_donnees_avec_jdbc/stocks");
+     // cr�ation de l'objet de type Statement associ� � la connexion, contenant 
       //   une requ�te SQL (ici de s�lection de donn�es)
     String requete = "SELECT REF, NAME FROM FOURNISSEURS" ; // nom de la base de données
     Statement stmt = connec.createStatement() ;
