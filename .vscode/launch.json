@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ZRowset",
+            "request": "launch",
+            "mainClass": "ZRowset",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "YRowset",
+            "request": "launch",
+            "mainClass": "YRowset",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "A_affichage_mots_a_la_suite",
+            "request": "launch",
+            "mainClass": "A_affichage_mots_a_la_suite",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
+            "name": "C_mode_couleur_XOR",
+            "request": "launch",
+            "mainClass": "C_mode_couleur_XOR",
+            "projectName": "java_b7e2f229"
+        },
+        {
+            "type": "java",
             "name": "B_elipse_nb_arguments_variables",
             "request": "launch",
             "mainClass": "B_elipse_nb_arguments_variables",

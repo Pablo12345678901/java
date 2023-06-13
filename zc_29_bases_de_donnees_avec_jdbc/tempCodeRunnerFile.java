@@ -1,1 +1,1 @@
-zc_29_bases_de_donnees_avec_jdbc
+String url = "jdbc:derby:/Users/alejandramt/Developpement/java/zc_29_bases_de_donnees_avec_jdbc/stocks" ;

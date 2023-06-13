@@ -3,8 +3,15 @@ import java.awt.* ;
 import java.awt.event.* ;
 import javax.swing.event.* ;
 
-class MaFenetre extends JFrame implements ActionListener
-{   MaFenetre ()
+public class C_mode_couleur_XOR {
+    public static void main (String args[])
+    {   MaFenetreC fen = new MaFenetreC() ;
+        fen.setVisible(true) ;
+    }
+}
+
+class MaFenetreC extends JFrame implements ActionListener
+{   MaFenetreC ()
     {   setTitle ("Dessin formes avec XOR") ;
         setSize (350, 250) ;
         setDefaultCloseOperation(EXIT_ON_CLOSE) ;
@@ -55,9 +62,4 @@ class Paneau extends JPanel
     }
 }
 
-public class C_mode_couleur_XOR {
-    public static void main (String args[])
-    {   MaFenetre fen = new MaFenetre() ;
-        fen.setVisible(true) ;
-    }
-}
+
